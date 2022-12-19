@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./assets/css/reset.css" />
-        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Josh Matsumoto's Portfolio</title>
     </head>
 
     <body>
@@ -12,18 +13,44 @@
             <h1> Josh Matsumoto</h1>
             <nav> 
                 <ul>
-                    <li> <a href="">About Me</a></li>
-                    <li> <a href="">My Projects</a></li>
-                    <li> <a href="">My Contact Info</a></li>
+                    <li> <a href="#ab-h">About Me</a></li>
+                    <li> <a href="#mp">My Projects</a></li>
+                    <li> <a href="#ci">My Contact Info</a></li>
                 </ul>
             </nav>
         </header>
-        <article>
-            <h2>About Me</h2>
+        <section class="content">
+            <h2 id="mp">My Projects</h2>
+            <article>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Accessibility.svg"/>
+                <figcaption>Adjusted a Website To Meet Accessibility Standards</figcaption>
+            </article>
+            <article>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Cheating.JPG">
+                <figcaption>Created a CSS Cheatsheet to Reference</figcaption>
+            </article>
+        </section>
+        <aside>
+            <h2 class="ab-header" id="ab-h">About Me</h2>
             <br/>
-            <section>
-                <img src="">
-            </section>
-        </article>
+            <h3>Generic Information</h3>
+            <p class="about-me"> Hi! My name is Joshua Matsumoto, but if you're here you probably already knew that... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae sunt explicabo obcaecati a distinctio omnis non veritatis dolorem adipisci officiis quam nam voluptatum commodi</p>
+            <br/>
+            <h3>Education</h3>
+            <p>Berkely Coding Bootcamp</p>
+        
+        </aside>
+        <section class="contact-info">
+            <h2 id="ci">Contact Info</h2>
+            <ul class="callme">
+                <li>Discord</li>
+                <li>Phone</li>
+                <li>LinkedIn</li>
+                <li>GitHub</li>
+                <li>Email</li>
+            </ul>
+        </section>
+
+
     </body>
 </html>
