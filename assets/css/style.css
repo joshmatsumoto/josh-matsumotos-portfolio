@@ -76,6 +76,8 @@ aside{
 .profile{
     margin-right: auto;
     margin-left: auto;
+    min-width: 40%;
+    max-width: 50%;
 }
 .content{
     width:66%;
