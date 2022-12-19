@@ -6,6 +6,7 @@ body{
     background-color: var(--bg);
     min-height: calc(100%+500px);
     margin-bottom: 400px;
+    font-family: "Helvitica";
 }
 header{
     display: flex;
@@ -72,7 +73,10 @@ aside{
     width: 33%;
     max-height: 100%;
 }
-
+.profile{
+    margin-right: auto;
+    margin-left: auto;
+}
 .content{
     width:66%;
     border-left: 3px solid var(--dark);
