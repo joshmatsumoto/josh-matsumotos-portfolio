@@ -5,6 +5,7 @@
 body{
     background-color: var(--bg);
     min-height: calc(100%+500px);
+    margin-bottom: 400px;
 }
 header{
     display: flex;
@@ -51,10 +52,13 @@ section ul li{
 img{
     width:50%;
     max-width: 400px;
-    margin-left: auto;
+    margin-left: 25%;
     margin-right: auto;
 }
 figcaption{
+    background-color: var(--dark);
+    position: relative;
+    top: -60px;
     text-align: center;
     font-size: 250%;
 }
@@ -62,6 +66,7 @@ aside{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    border-right: 3px dashed var(--dark);
     clear: both;
     float: left;
     width: 33%;
@@ -103,4 +108,11 @@ aside{
     max-width: 600px;
     width:60%;
 }
-
+@media screen and (max-width: 790px) {
+    h1{
+        font-size: 200%;
+    }
+    .contact-info{
+        right:0
+    }
+}
